@@ -1,6 +1,6 @@
 
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import { getDatabase, ref, push, onValue} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import { initializeApp } from "./firebase-app.js"
+import { getDatabase, ref, push, onValue} from "./firebase-database.js"
 
 const appSettings = {
     databaseURL : "https://champions-cf815-default-rtdb.firebaseio.com/"
